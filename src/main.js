@@ -2,7 +2,7 @@ import './style.css'
 import { calendarDates } from './dates.js'
 import { themes } from './themes.js'
 
-document.querySelector('#app').innerHTML = `
+document.querySelector('#app').innerHTML = /*html*/`
   <div class="cal">
     <div class="cal__header">
       <button class="cal__button prev-month"></button>
