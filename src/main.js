@@ -9,7 +9,7 @@ document.querySelector('#app').innerHTML = /*html*/`
       <h2 class="cal__month">январь</h2>
       <button class="cal__button next-month"></button>
     </div>
-    <ul class="cal__list">
+    <ol class="cal__list">
       <li class="cal__item">1</li>
       <li class="cal__item">2</li>
       <li class="cal__item">3</li>
@@ -45,7 +45,7 @@ document.querySelector('#app').innerHTML = /*html*/`
       <li class="cal__item cal__item_next-m">3</li>
       <li class="cal__item cal__item_next-m">4</li>  
       <li class="cal__item cal__item_next-m">5</li>  
-    </ul>
+    </ol>
     <div class="cal__footer">
       <section class="themes toggle">
         <h2 class="themes__text visually-hidden">Выбор светлой или темной темы</h2>
